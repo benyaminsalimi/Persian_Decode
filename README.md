@@ -1,4 +1,5 @@
 Persian_Decode
 ==============
 
-its fork of old version of https://github.com/ScottSmith95/Decode configed for persian user 
+Persian_Decode based on  https://github.com/ScottSmith95/Decode and configed for Persian user
+
