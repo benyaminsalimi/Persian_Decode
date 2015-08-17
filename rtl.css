@@ -1,0 +1,172 @@
+/*
+Theme Name: Decode
+*/
+
+
+/* =Global
+----------------------------------------------- */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+}
+
+caption, th, td {
+	text-align: right;
+}
+
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+
+li > ul,
+li > ol {
+	margin-left: auto;
+	margin-right: 1.5em;
+}
+
+textarea {
+	padding-left: auto;
+	padding-right: 3px;
+}
+
+.screen-reader-text:hover, .assistive-text:hover,
+.screen-reader-text:active, .assistive-text:active,
+.screen-reader-text:focus, .assistive-text:focus {
+	left: auto;
+	right: 5px;
+}
+
+
+/* =Social Links
+----------------------------------------------- */
+
+.social-link:first-child {
+	margin-left: 1%;
+	margin-right: 0;
+}
+
+.social-link:last-child {
+	margin-right: 1%;
+	margin-left: 0;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.menu ul {
+	padding-right: 0;
+}
+
+.menu > ul > li:first-child {
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+
+.menu > ul > li:last-child {
+	margin-right: 0.5em;
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 50em) {
+	.menu > ul > li:first-child {
+		margin-left: 1.5%;
+	}
+	.menu > ul > li:last-child {
+		margin-right: 1.5%;
+	}
+}
+
+.menu ul ul {
+	float: right;
+	left: auto;
+	right: 0;
+}
+
+.menu .menu-item-has-children > a::after,
+.menu .page_item_has_children > a::after {
+	margin-left: auto;
+	margin-right: 0.25em;
+}
+
+.sidebar-menu > ul {
+	margin-left: auto;
+	margin-right: 2em;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+.entry-content blockquote {
+	padding: 0 5% 0 0;
+	border-left: none;
+	border-right: 1px solid #009BCD;
+}
+
+.format-quote .entry-content blockquote {
+	padding-right: 0;
+	border-right: none;
+}
+
+
+/* =Author Card
+----------------------------------------------- */
+.author-section {
+	text-align: right;
+}
+
+.author-image {
+	float: right;
+}
+
+.author-text {
+	float: right;
+	margin-right: 5%;
+}
+
+
+
+/* =Galleries
+----------------------------------------------- */
+.gallery-item {
+	float: right;
+	margin: 0 0 4px 4px;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.nav-previous {
+	float: right;
+	text-align: right;
+}
+
+.nav-next {
+	float: left;
+	text-align: left;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.comment-metadata a {
+	margin-right: auto;
+	margin-left: 1.5%
+}
+
+textarea#comment {
+	border-radius: 3px 3px 3px 0;
+}
+
+.form-allowed-tags {
+	border-radius: 3px 3px 3px 0;
+}
+
+.form-submit input[type=submit] {
+	float: left;
+}

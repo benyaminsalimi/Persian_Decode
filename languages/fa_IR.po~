@@ -1,0 +1,753 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <Benyamin.salimi@gmail.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fa-Decode v2.9.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/decode\n"
+"POT-Creation-Date: 2015-07-05 17:00-0600\n"
+"PO-Revision-Date: 2015-08-10 18:55+0330\n"
+"Last-Translator: Scott Smith <benyamin.salimi@gmail.com>\n"
+"Language-Team: BenYamin Salimi <benyamin.salimi@gmail.com>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"Description:\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اپس ! این صفحه پیدا نشد"
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"به نظر میرسه هچی اینجا پیدا نمیشه. شاید باید یکی از لینک های زیر یا گزینه "
+"سرچ رو امتحان کنید؟"
+
+#: 404.php:26
+msgid "Try looking in the monthly archives."
+msgstr "سعی کنید در آرشیو ماهانه جس و جو کنید"
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr "دسته هایی که بیشتر از همه استفاده شده"
+
+#: author.php:26 inc/template-tags.php:215
+#, php-format
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "دیدگاه در  &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s دیدگاه در  &ldquo;%2$s&rdquo;"
+
+#: comments.php:34 comments.php:58
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه"
+
+#: comments.php:37 comments.php:61
+#, fuzzy
+msgid "Older Comments"
+msgstr "&larr; دیدگاه های قدیمی تر"
+
+#: comments.php:38 comments.php:62
+#, fuzzy
+msgid "Newer Comments"
+msgstr "دیدگاه های جدید تر &rarr;"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته شد اند"
+
+#: comments.php:79
+msgid "Leave a Reply"
+msgstr "پاسخ دادن"
+
+#: comments.php:80
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "پاسخ دادن به %s"
+
+#: comments.php:81
+msgid "Cancel reply"
+msgstr "لغو پاسخ"
+
+#: comments.php:82
+msgid "Post Comment"
+msgstr "ارسال دیدگاه"
+
+#: comments.php:101
+msgctxt "noun"
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: comments.php:102
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "شما باید <a href=\"%s\">وارد شوید </a>تا قادر به ارسال دیدگاه باشید"
+
+#: comments.php:103
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"شما وارد شده اید <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+"of this account\">میخواهد خارج شوید ؟</a>"
+
+#: comments.php:104
+msgid "Your email address will not be published."
+msgstr "آدرس ایمیل شما منتشر نخواهد شد"
+
+#: comments.php:105
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: content-excerpt.php:33
+msgid "Read More&hellip;"
+msgstr "ادامه متن&hellip;"
+
+#: content-excerpt.php:35 content-link.php:38 content-page.php:32
+#: content-quote.php:25 content-search.php:20 content-single.php:22
+#: content-single.php:62 content-single.php:111 content.php:41 image.php:30
+msgid "Edit"
+msgstr "ویرایش"
+
+#: content-link.php:29 content-quote.php:15 content-single.php:14
+#: content-single.php:56 content-single.php:98 content.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ادامه مطلب <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:31 content-page.php:28 content-quote.php:18
+#: content-single.php:17 content-single.php:102 content.php:32 image.php:91
+msgid "Pages:"
+msgstr "صفحات"
+
+#: content-link.php:35 content-quote.php:22 content.php:37
+msgid "Leave a comment"
+msgstr "ارسال دیدگاه"
+
+#: content-link.php:35 content-quote.php:22 content.php:37
+msgid "1 Comment"
+msgstr "1 دیدگاه"
+
+#: content-link.php:35 content-quote.php:22 content.php:37
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: content-link.php:42 content-quote.php:29 content-single.php:25
+#: content-single.php:65 content-single.php:114 content.php:45
+msgid "Tagged as: "
+msgstr "برچسب گذاشته شده به عنوان:"
+
+#: content-link.php:45 content-quote.php:32 content-single.php:26
+#: content-single.php:66 content-single.php:115 content.php:48
+msgid "Categorized in&#58; "
+msgstr "دسته بندی : &#58; "
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "هیچی پیدا نشد!!"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"آماده اید تا اولین پست خود را منتشر کنید؟ <a href=\"%1$s\">از اینجا شورع "
+"کنید</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"متاسفم، ولی هیچ نتیجه ای برای جست و جوی شما پیدا نشد. لطفا با واژه های کلیدی "
+"دیگر امتحان کنید"
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:44
+#, php-format
+msgid "%1$s by %2$s"
+msgstr "%1$s توسط %2$s"
+
+#: functions.php:26
+msgid "Header Menu"
+msgstr "منوی هدر "
+
+#: functions.php:27
+msgid "Sidebar Menu"
+msgstr "منوی نوار کناری"
+
+#: functions.php:28
+msgid "Footer Menu"
+msgstr "منوی فوتر"
+
+#: functions.php:169
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: functions.php:171
+msgctxt "sidebar description"
+msgid "Only displayed if sidebar remains enabled in the Customize menu."
+msgstr ""
+
+#: header.php:33
+#, fuzzy
+msgid "Skip to content"
+msgstr "تنظیمات محتوا"
+
+#: header.php:37
+#, fuzzy
+msgid "Show sidebar"
+msgstr "نوار کناری"
+
+#: image.php:22
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> in <a href=\"%3$s\" title=\"Return to %4$s\" rel="
+"\"gallery\">%5$s</a>"
+msgstr ""
+"منتشر شده <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> در <a href=\"%3$s\" title=\"Return to %4$s\" rel="
+"\"gallery\">%5$s</a>"
+
+#: image.php:34
+msgid "Previous"
+msgstr "قبلی "
+
+#: image.php:35
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/customizer.php:166
+msgid "Header Options"
+msgstr "تنظیمات هدر"
+
+#: inc/customizer.php:201
+msgid "Favicon Image (must be a PNG)"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Show Site Title"
+msgstr "نمایش عنوان  سایت"
+
+#: inc/customizer.php:216
+msgid "Show Site Description"
+msgstr "نمایش توضیحات سایت"
+
+#: inc/customizer.php:223
+msgid "Show Header Menu"
+msgstr "نمایش منوی هدر"
+
+#: inc/customizer.php:230
+msgid ""
+"HTML for description, if you wish to replace your blog description with HTML "
+"markup"
+msgstr ""
+"توضیحات وبسایت به زبان HTML . اگر دوست دارید به جای توضیحات تگ اچ تی ام ال "
+"وارد کنید کد مورد نظر خود را در کادر زیر بنویسید."
+
+#: inc/customizer.php:244
+msgid "Sidebar Options"
+msgstr "تنظیمات ساید بار"
+
+#: inc/customizer.php:272
+msgid "Enable Sidebar"
+msgstr "فعال سازی ساید بار"
+
+#: inc/customizer.php:279
+msgid "Sidebar Position"
+msgstr "حالت نوار کناری"
+
+#: inc/customizer.php:284 inc/customizer.php:296
+msgid "Left"
+msgstr "چپ"
+
+#: inc/customizer.php:285 inc/customizer.php:297
+msgid "Right"
+msgstr "راست"
+
+#: inc/customizer.php:291
+msgid "Sidebar Button Position"
+msgstr "تنظیم حالت دکمه نوار کناری"
+
+#: inc/customizer.php:303
+msgid "Always Visible Sidebar"
+msgstr "نوار کناری همیشه نمایش داده شود"
+
+#: inc/customizer.php:308
+msgctxt "Sidebar option"
+msgid "Always open"
+msgstr "همیشه باز"
+
+#: inc/customizer.php:309
+msgctxt "Sidebar option"
+msgid "Closed by default"
+msgstr "به صورت پیشفرض بسته باشد"
+
+#: inc/customizer.php:321
+msgid "Social Options"
+msgstr "تنظیمات اجتماعی"
+
+#: inc/customizer.php:627 inc/customizer.php:634
+msgid "Show Social Icons"
+msgstr "نمیاش ایکون شکبه های اجتماعی"
+
+#: inc/customizer.php:627
+msgid "in Header"
+msgstr "در هدر"
+
+#: inc/customizer.php:634
+msgid "in Footer"
+msgstr "در فوتر"
+
+#: inc/customizer.php:641
+msgid "Open Links in New Tab/Window"
+msgstr "باز کردن پیوند ها در زبانه/پنجه جدید"
+
+#: inc/customizer.php:649 inc/customizer.php:657 inc/customizer.php:665
+#: inc/customizer.php:674 inc/customizer.php:682 inc/customizer.php:690
+#: inc/customizer.php:699 inc/customizer.php:707 inc/customizer.php:715
+#: inc/customizer.php:723 inc/customizer.php:731 inc/customizer.php:748
+#: inc/customizer.php:756 inc/customizer.php:764 inc/customizer.php:772
+#: inc/customizer.php:780 inc/customizer.php:788 inc/customizer.php:796
+#: inc/customizer.php:804 inc/customizer.php:812 inc/customizer.php:820
+#: inc/customizer.php:837 inc/customizer.php:854 inc/customizer.php:862
+#: inc/customizer.php:870 inc/customizer.php:878 inc/customizer.php:886
+#: inc/customizer.php:911 inc/customizer.php:919 inc/customizer.php:936
+#: inc/customizer.php:970 inc/customizer.php:978 inc/customizer.php:986
+#: inc/customizer.php:994 inc/customizer.php:1010 inc/customizer.php:1027
+#: inc/customizer.php:1035 inc/customizer.php:1043 inc/customizer.php:1051
+#: inc/customizer.php:1059 inc/customizer.php:1083
+#, php-format
+msgid "%s Username"
+msgstr "%s نام کاربری"
+
+#: inc/customizer.php:666 inc/customizer.php:691
+msgid " (or the long number in your profile URL)"
+msgstr ""
+
+#: inc/customizer.php:739 inc/customizer.php:1018 inc/customizer.php:1067
+#: inc/customizer.php:1075
+#, php-format
+msgid "%s Profile URL"
+msgstr "%s آدرس پروفایل"
+
+#: inc/customizer.php:828 inc/customizer.php:902 inc/customizer.php:927
+#: inc/customizer.php:944 inc/customizer.php:953
+#, php-format
+msgid "%s Site URL"
+msgstr "%s آدرس سایت"
+
+#: inc/customizer.php:845 inc/customizer.php:894 inc/customizer.php:1100
+#, php-format
+msgid "%s Link"
+msgstr "%s پیوند"
+
+#: inc/customizer.php:962 inc/customizer.php:1002
+#, fuzzy, php-format
+msgid "%s User ID"
+msgstr "نویسنده: %s"
+
+#: inc/customizer.php:1091
+msgid "Email Address"
+msgstr "ادرس ایمیل"
+
+#: inc/customizer.php:1109
+msgid "RSS Feed"
+msgstr "خوراک RSS"
+
+#: inc/customizer.php:1123
+msgid "Content Options"
+msgstr "تنظیمات محتوا"
+
+#: inc/customizer.php:1125
+#, php-format
+msgctxt "(blog name)'s content."
+msgid "These options change the display of %s's content"
+msgstr ""
+
+#: inc/customizer.php:1207
+msgid "Load Latin Extended character set. This will increase page load times."
+msgstr ""
+
+#: inc/customizer.php:1214
+msgid ""
+"Use entry excerpts instead of full text on site home. Excludes sticky posts."
+msgstr ""
+
+#: inc/customizer.php:1221
+msgid "Use entry excerpts on archive, category, and author pages."
+msgstr ""
+
+#: inc/customizer.php:1228
+msgid "Display posts' featured images when excerpts are shown."
+msgstr ""
+
+#: inc/customizer.php:1235
+msgid "Display a post's featured image on its individual page."
+msgstr "نمایش تصویر شاخص پست در صفحات فردی"
+
+#: inc/customizer.php:1242
+msgid "Show tags on front page (tags will be shown on post's individual page)"
+msgstr ""
+"نمای برچسب ها در پایین صفحه ( در صورت غیر فعال بودن نیز برچسب ها در صفحات "
+"فردی نمایش داده میشوند)"
+
+#: inc/customizer.php:1249
+msgid ""
+"Show categories on front page (categories will be shown on post's individual "
+"page)"
+msgstr ""
+"نمایش ظبقه بندی در پایین صفحه ( در صورت  غیر فعال بودن نیز طبقه بندی در "
+"صفحات فردی نمایش داده میشود)   "
+
+#: inc/customizer.php:1256
+msgid "Show author's name, profile image, and bio after posts"
+msgstr "نمایش نام،عکس پروفایل،و بیو بعد از پست ها "
+
+#: inc/customizer.php:1263
+msgid "Entry Date Position"
+msgstr "حالت ورودی تاریخ"
+
+#: inc/customizer.php:1267
+msgid "Above Header"
+msgstr "بالاتر از هدر"
+
+#: inc/customizer.php:1268
+msgid "Below Header"
+msgstr "پایین هدر"
+
+#: inc/customizer.php:1274
+msgid "Show entry date for post excepts on the main page"
+msgstr "نمایش تاریخ ارسال پست به جز در صفحه اصلی "
+
+#: inc/customizer.php:1281
+msgid "Show allowed HTML tags on comment form"
+msgstr "نمایش تگهای مجاز HTML  در فرم نظرات"
+
+#: inc/customizer.php:1288
+msgid "Show Page Headers"
+msgstr "نمایش عنوان صفحه "
+
+#: inc/customizer.php:1295
+msgid "Add an arrow before the title of a link post"
+msgstr "اضافه کردن کمان  قبل از عنوان لینک نوشته"
+
+#: inc/customizer.php:1302
+msgid ""
+"Show Theme Info (display a line of text about the theme and its creator at "
+"the bottom of pages)"
+msgstr "نمایش اطلاعات قالب(نمایش نام سازنده قالب ته صفحه) "
+
+#: inc/customizer.php:1311
+msgid "Text (colophon, copyright, credits, etc.) for the footer of the site"
+msgstr "متن (شرایط کپی رایت،نام پیدید آورنده و...)"
+
+#: inc/customizer.php:1325
+msgid "Other Options"
+msgstr "دیگر تنظیمات"
+
+#: inc/customizer.php:1326
+msgid ""
+"Custom CSS is longer recommended. This feature may be removed in a future "
+"update. To continue using your tweaks, copy and paste your CSS into a custom "
+"CSS plugin such as <a href=\"http://jetpack.me/install/\">Jetpack</a>. Get "
+"help <a href=\"http://jetpack.me/support/custom-css/\">here</a>."
+msgstr ""
+"Custom CSSدیگر پیشنهاد نمیشود . ممکن است در آپدیت های آینده حذف شود .   برای "
+"استفاده از این امکان از پلاگین هایی نطسر : <a href=\"http://jetpack.me/"
+"install/\">Jetpack</a>. اطلاعات بیشتر  <a href=\"http://jetpack.me/support/"
+"custom-css/\">اینجا</a>."
+
+#: inc/customizer.php:1347
+msgid "Custom CSS"
+msgstr "CSS کاستوم"
+
+#: inc/customizer.php:1358
+msgid "Show the following post types on home blog page. (Separate with commas)"
+msgstr "نمایش پست های زیر در صفخه اصلی وبلاگ ( با کاما جدا کنید )"
+
+#: inc/customizer.php:1397
+msgid "Accent Color"
+msgstr "رنگ اصلی"
+
+#: inc/customizer.php:1398
+msgid "The main color used for links, borders, buttons, and more."
+msgstr "رنگ اصلی که برای لینک ها،بوردرها، دکمه ها و غیر استفاده میشود"
+
+#: inc/customizer.php:1405
+msgid "Active Link Color"
+msgstr "رنگ لینک های فعال"
+
+#: inc/customizer.php:1406
+msgid ""
+"The color for currently clicked links.<br>(Try using a darker color than the "
+"Accent Color.)"
+msgstr ""
+"رنگ لینکهایی که روی آنها کلیک شده است( رنگ تیره تر از Accent را انتخاب کنید)"
+
+#: inc/customizer.php:1413
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: inc/customizer.php:1414
+#, fuzzy
+msgid "The main text color."
+msgstr "رنگ متن"
+
+#: inc/customizer.php:1421
+msgid "Secondary Text Color"
+msgstr "رنگ دوم متن "
+
+#: inc/customizer.php:1422
+msgid ""
+"Text color used for text of secondary importance.<br>(Try using a lighter "
+"color than the main Text Color.)"
+msgstr ""
+"رنگی که برای متن های با اولویت دوم استفاده میشود(سعی کنید رنگ روشن‌تر از رنگ "
+"متن اصلی باشد)"
+
+#: inc/customizer.php:1429
+msgid "Use accent color instead of text color for icons"
+msgstr "رنگ اصلی برای متن و آیکن ها !"
+
+#: inc/extras.php:95
+#, fuzzy, php-format
+msgid "Page %s"
+msgstr "صفحه"
+
+#: inc/template-tags.php:42
+msgid "Website"
+msgstr "وب سایت"
+
+#: inc/template-tags.php:128
+#, fuzzy, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:133
+#, fuzzy, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:155
+msgid "Posts navigation"
+msgstr "ناوبری پست ها"
+
+#: inc/template-tags.php:159
+msgid "Older posts"
+msgstr "مطالب قدیمی‌تر "
+
+#: inc/template-tags.php:163
+#, fuzzy
+msgid "Newer posts"
+msgstr "مطالب اخیر"
+
+#: inc/template-tags.php:186
+msgid "Post navigation"
+msgstr "ناوبری این پست"
+
+#: inc/template-tags.php:211
+#, fuzzy, php-format
+msgid "Category: %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:213
+#, fuzzy, php-format
+msgid "Tag: %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:217
+#, php-format
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: inc/template-tags.php:217
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:219
+#, php-format
+msgid "Month: %s"
+msgstr "ماه: %s"
+
+#: inc/template-tags.php:219
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:221
+#, php-format
+msgid "Day: %s"
+msgstr "روز: %s"
+
+#: inc/template-tags.php:221
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:224
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:226
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "گالری ها"
+
+#: inc/template-tags.php:228
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "تصاویر"
+
+#: inc/template-tags.php:230
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "ویدیو ها"
+
+#: inc/template-tags.php:232
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "نقل قول شدن ها"
+
+#: inc/template-tags.php:234
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+"به نظر میرسه هچی اینجا پیدا نمیشه. شاید باید یکی از لینک های زیر یا گزینه "
+"سرچ رو امتحان کنید؟"
+
+#: inc/template-tags.php:236
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "استاتوس ها"
+
+#: inc/template-tags.php:238
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "شنیدنی ها"
+
+#: inc/template-tags.php:240
+#, fuzzy
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "گفت و گو ها"
+
+#: inc/template-tags.php:243
+#, fuzzy, php-format
+msgid "Archives: %s"
+msgstr "آرشیو"
+
+#: inc/template-tags.php:247
+#, fuzzy, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s توسط %2$s"
+
+#: inc/template-tags.php:249 page-explore.php:37 sidebar.php:41
+msgid "Archives"
+msgstr "آرشیو"
+
+#: page-explore.php:11
+msgid "Explore Page"
+msgstr "کاوش صفحه"
+
+#: page-explore.php:26
+msgid "Recent Posts"
+msgstr "مطالب اخیر"
+
+#: page-explore.php:44
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: sidebar.php:11
+#, fuzzy
+msgid "Hide sidebar"
+msgstr "نوار کناری"
+
+#: sidebar.php:26
+msgid "Navigation"
+msgstr "ناوبری"
+
+#, fuzzy
+#~ msgid "Google Profile URL"
+#~ msgstr "%s آدرس پروفایل"
+
+#~ msgid "Discussion Options"
+#~ msgstr "تنظیمات گفتگو"
+
+#~ msgid "Enable Comments"
+#~ msgstr "فعال کردن نظرات"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> بازگشت"
+
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "بعدی <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgctxt "[noun] [translation string] (explanation)"
+#~ msgid "%1$s Username %2$s"
+#~ msgstr "%1$s نام کاربری %2$s"
+
+#~ msgid "%s Group Name"
+#~ msgstr "%s نام گروه"
+
+#~ msgid "Tag"
+#~ msgstr "برچسب"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> پست های قدیمی تر"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "پست های جدیدتر <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid ""
+#~ "<span class=\"posted-on-text\">Posted on </span><span class=\"posted-on-"
+#~ "date\">%1$s</span><span class=\"byline\"> by %2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"posted-on-text\">منتشر شده در </span><span class=\"posted-"
+#~ "on-date\">%1$s</span><span class=\"byline\"> توسط %2$s</span>"
+
+#~ msgid "View all posts by %s"
+#~ msgstr "نمایش تمام پست های %s"
